@@ -1,6 +1,6 @@
 rm(list = ls())
 getwd()
-setwd("C:\\Users\\周智康\\Desktop\\Rdata")
+setwd("D:\\data\\Rdata")
 
 #对OTU进行筛选
 #（1）去掉平均相对丰度低于0.01%
@@ -139,3 +139,4 @@ write.csv(network_parameter, 'network_parameter.csv')
 
 otu1 = otu
 otu1[otu1>0] = 1
+
